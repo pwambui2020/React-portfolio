@@ -19,13 +19,13 @@ const Services = () => {
                 <p>{service.s_desc}</p>
                 <div className="services-readmore">
                     <p>Read More</p>
-                    <img src={arrow} alt="" />
+                    <img src={arrow} alt=""loading='lazy' style={{ width: "200px", height: "50px"  }} />
                 </div>
             </div>
-        })};
+        })}
       </div>
     </div>
   );
 };
 
-export default Services;
+export default Services
