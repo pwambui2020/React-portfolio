@@ -9,12 +9,7 @@ const Navbar = () => {
     <div className="navbar">
       <img src={logo} alt="" />
       <ul className="nav-menu">
-        {/* <li><p onClick={()=>setMenu('home')}>Home</p>{menu==="home"?<img src={logo} alt="" />:<></>}</li> */}
-        {/* <li><p onClick={() => setMenu('home')}>Home</p>{menu === "home" && <span className="active-line"></span>}</li>
-            <li><p onClick={()=>setMenu('about')}>About me</p>{menu==="about"?<img src={logo} alt="" />:<></>}</li>
-            <li><p onClick={()=>setMenu('service')}>Service</p>{menu==="service"?<img src={logo} alt="" />:<></>}</li>
-            <li><p onClick={()=>setMenu('work')}>Portfolio</p>{menu==="work"?<img src={logo} alt="" />:<></>}</li>
-            <li><p onClick={()=>setMenu('contact')}>Contact</p>{menu==="contact"?<img src={logo} alt="" />:<></>}</li> */}
+        
         <li>
           <p onClick={() => setMenu("home")}>Home</p>
           {menu === "home" && <span className="active-line"></span>}
